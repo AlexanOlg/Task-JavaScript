@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+        <section>
+            <p><b>Задача 1</b></p>
+            <p>Создайте пустой div c классом three. С помощью querySelector запишите внутрь div заголовок h3 с произвольным текстом.</p>
+            <div class="three"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 2.</b></p>
+            <p>Создайте пустой div c классом four. С помощью querySelector запишите внутрь div заголовок h4 с  произвольным текстом и параграф p с произвольным текстом. Подсказка, чтобы дописывать внутрь элемента используейте не innerHTML = , а innerHTML += (плюс равно без пробела).</p>
+            <div class="four"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 3</b></p>
+            <p>Создайте div c классом s3 и div с классом s4. Получите div.s3 в переменную divS3. Выведите в консоль divS3. Теперь получите в эту же переменную divS3 блок div c классом s4. Выведите переменную divS3 в консоль. Изучите что изменилось.</p>
+            <div class="s3">s3</div>
+            <div class="s4">s4</div>
+        </section>
+
+        <section>
+            <p><b>Задача 4</b></p>
+            <p>Создайте две переменные c = 7 и d = 9. Выведите на страницу в .out-2 результат деления c на d.</p>
+            <div class="out-2"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 5</b></p>
+            <p>Создайте input и кнопку. По нажатию на кнопку выполняется функция, которая выводит в консоль то, что пользователь ввел в input.</p>
+            <div><input type="text" class="input5" placeholder="Вывод в консоль!">
+                <button class="button5">Задача-5</button>
+            </div>
+        </section>
+
+        <section>
+            <p><b>Задача 6</b></p>
+            <p>Создайте input .i-14 и пропишите ему в html value = 77. При клике по кнопке измените value на 'Hello'.</p>
+            <div>Введите число <input type="text" class="input6" value="77"></div>
+            <button class="button6">Задача 6</button>
+        </section>
+
+        <section>
+            <p><b>Задача 7</b></p>
+            <p>Создайте input type="text" куда пользователь может ввести строку и число. Создайте функцию, которая запускается по нажатию на кнопку. Получите значение из input в переменную t. А затем сделайте операцию parseInt(t), и результат операции выведите в out-17. Прочитайте за эту операцию. Попробуйте по очереди вводить 44, 44aaa, 44.3, a45 . Изучите вывод.</p>
+            <div>Введите число <input type="text" class="input7"></div>
+            <button class="button7">Задача 7</button>
+            <div class="out-7"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 8</b></p>
+            <p>Создайте два input type=number, куда пользователь может ввести отрицательные числа. Выведите на страницу сумму данных чисел. Мы это делали! Зачем? Затем, что нужно понимать как влияет перевод в число с помощью + и parseInt на отрицательные числа!!!</p>
+            <div>Введите число 1 <input type="number" class="input8_1"></div>
+            <div>Введите число 2 <input type="number" class="input8_2"></div>
+            <button class="button8">Задача 8</button>
+            <div class="out-8"></div>
+        </section>
+
+      <section>
+        <p><b>Задача 9</b></p>
+        <p>
+          Даны 2 input - input9_1 и input9_2, оба - input[type=number]. При нажатии кнопки button9 срабатывает функция. Функция должна число из input9_1 возвести в степень input9_2, вывести результат в out-9. Для возведения в степень можно использовать **, или Math.pow.
+        </p>
+        <div>
+          Введите число 1 <input type="number" class="input9_1" />
+        </div>
+        <div>
+          Введите число 2 <input type="number" class="input9_2" />
+        </div>
+        <button class="button9">Задача 9</button>
+        <div class="out-9"></div>
+      </section>
+
+      <section>
+        <p><b>Задача 10</b></p>
+        <p>
+          Дан input input10_1 и input10_2, type=number. Дан select s-10, который
+          содержит четыре операции - +, -, *, / . Дана кнопка button10, при нажатиb на которую срабатывает функция f10. Функция выводит в out-10 результат операций выбранной в 3-м select к числам введенным в первом и втором input. Например выбрано 1 13 +, нужно вывести результат операции 1+13, т.е. 14.
+        </p>
+        <div>
+          Введите первое число <input type="number" class="input10_1" />
+        </div>
+        <div>
+          Введите второе число <input type="number" class="input10_2" />
+        </div>
+        <div>
+          <select class="s-10">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+          </select>
+        </div>
+        <button class="button10">Задача 10</button>
+        <div class="out-10"></div>
+      </section>
+
+      <section>
+        <p><b>Task 11.</b></p>
+        <p>
+          Дан select s-111 и s-112, каждый из которых содержит 1 и 0. Дан select
+          s-113, который содержит две операции - && и || . Дана кнопка b-11, при
+          нажатии на которую срабатывает функция f11. Функция выводит в out-11
+          результат логических операций выбранных в 3 select к числам выбранным
+          в первом и втором select. Например выбрано 1 1 &&, нужно вывести
+          результат операции 1&&1 т.е. 1 или 0.
+        </p>
+        <div class="form-control">
+          <select class="s-111">
+            <option value="1">1</option>
+            <option value="0">0</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <select class="s-112">
+            <option value="1">1</option>
+            <option value="0">0</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <select class="s-113">
+            <option value="&&">&&</option>
+            <option value="||">||</option>
+          </select>
+        </div>
+        <button class="button-primary b-11">Task-11</button>
+        <div class="out-11"></div>
+      </section>
+    </div>
+	<script src="app.js"></script>
+</body>
+</html>
