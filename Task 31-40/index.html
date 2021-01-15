@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+        <section>
+            <p><b>Задача 1</b></p>
+            <p>Есть input i-1_1 и i-1_2 куда пользователь может ввести числа. По нажатию кнопки b-9 должна запускаться функция, которая выводит в out-9 числа от меньшего введенного до большего включительно, с шагом 1. Разделитель пробел. Если пользователь ввел 4 и 8 и нажал кнопку, мы получим:</p>
+            <pre>
+                4 5 6 7 8
+                если ввел 8 и 6, то получим
+                6 7 8
+            </pre>
+            <p> Задача решается с помощью цикла. Подсказка - вначале делаем проверку, а потом запускаем цикл 1) while; 2) for </p>
+            <div>Введите первое число <input type="number" class="i-1_1"></div>
+            <div>Введите второе число <input type="number" class="i-1_2"></div>
+            <button class="b-1">Кнопка 1</button>
+            <div class="out-1"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 2</b></p>
+            <p>Кнопка b-2 запускает функцию, которая должна выводить в out-2 четные годы от 1950 до 2000     включительно. Разделитель - пробел. Задача решается через цикл while, а четность - через шаг (равный 2).
+            </p>
+            <button class="b-2">Кнопка 2</button>
+            <div class="out-2"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 3</b></p>
+            <p>Кнопка b-3 запускает функцию, которая должна: получить все div-3 перебрать их с помощью цикла while. Обращение к div выглядит так elem[i]     вывести в out-3 содержимое каждого блока. Разделитель - пробел.
+                В результате должно получиться так:</p>
+            <pre>
+                one 3 4 two
+            </pre>
+            <div class="div-3">one</div>
+            <div class="div-3">3</div>
+            <div class="div-3">4</div>
+            <div class="div-3">two</div>
+            <button class="b-3">Кнопка 3</button>
+            <div class="out-3"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 4</b></p>
+            <p>Кнопка b-4 запускает функцию, которая должна:   получить все input.i-4, перебрать их с помощью цикла while. Обращение к элементу выглядит так elem[i], применить к каждому elem[i].value, причем к value первого должно равняться 1, второго - 2, третьего - 3...
+            </p>
+            <div>
+                <label>Первое значение</label>
+                <input type="text" placeholder="Enter some info" class="i-4">
+            </div>
+            <div>
+                <label>Второе значение</label>
+                <input type="text" placeholder="Enter some info" class="i-4">
+            </div>
+            <div>
+                <label>Третье значение</label>
+                <input type="text" placeholder="Enter some info" class="i-4">
+            </div>
+            <button class="b-4">Кнопка 4</button>
+            <div class="out-4"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 5</b></p>
+            <p>Кнопка b-5 запускает функцию, которая должна:  получить все input.i-5, перебрать их с помощью цикла while. Обращение к элементу выглядит так elem[i], вывести в out-5 value выбранного. Проверить выбран ли элемент можно с помощью elem[i].checked.
+            </p>
+            <fieldset>
+                <legend>Input i-5</legend>
+                <div>
+                    <label><input type="radio" name="i-5" class="i-5" checked value="111">Radio</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="i-5" class="i-5" value="222">Radio</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="i-5" class="i-5" value="333">Radio</label>
+                </div>
+            </fieldset>
+            <button class="b-5">Кнопка 5</button>
+            <div class="out-5"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 6</b></p>
+            <p>Кнопка b-6 запускает функцию, которая должна выводить следующую последовательность в out-6:</p>
+            <pre>
+                10 0 9 1 8 2 7 3 6 4 5 5 4 6 3 7 2 8 1 9 0 10
+               </pre>
+            <p> Для вывода использовать цикл while.
+            </p>
+
+            <button class="b-6">Кнопка 6</button>
+            <div class="out-6"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 7</b></p>
+            <p>По нажатию b-7 запускайте функцию, которая проверяет наличие класса bg-6 у блока out-6 (да, именно bg-6 у out-6 ). Результат - true или false, выводите в out-7.</p>
+            <button class="b-7">Кнопка 7</button>
+            <div class="out-7"></div>
+        </section>
+
+        <section>
+            <p class="p-8"><b>Задача 8</b></p>
+            <p class="p-8">По нажатию b-8 запускайте функцию, которая выводит в out-8 количество параграфов с классом p-8.</p>
+            <button class="b-8">Кнопка 8</button>
+            <div class="out-8"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 9</b></p>
+            <p>По нажатию кнопки b-9 запускайте функцию, которая присваивает блокам out-9 класс .bg-9. Обратите внимание, что данных блоков больше одного, следовательно нужен цикл.</p>
+            <button class="b-9">Кнопка 9</button>
+            <div class="out-9"></div>
+            <div class="out-9"></div>
+            <div class="out-9"></div>
+        </section>
+
+        <section>
+            <p><b>Задача 10</b></p>
+            <p>Усложним предыдущие задачи. С помощью цикла повесьте на блоки out-10 событие клик. По клику должна выполняться функция, которая должна добавлять класс bg-10 тому out-10 на котором кликнули.</p>
+            <button class="b-10">Кнопка 10</button>
+            <div class="out-10">1</div>
+            <div class="out-10">2</div>
+            <div class="out-10">3</div>
+        </section>
+    </div>
+	<script src="app.js"></script>
+</body>
+</html>
